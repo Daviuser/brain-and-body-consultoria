@@ -1,0 +1,9 @@
+Brain and Body Consultoria - Landing Page
+
+Abra index.html no navegador ou envie a pasta inteira (index.html + assets) para a hospedagem.
+
+Para editar (procure no index.html):
+- WHATSAPP_NUMBER: numero do WhatsApp (DDI+DDD+numero, so digitos)
+- R$ XXX: precos dos planos
+- +XX / XX: numeros do Bruno (para count-up, use data-count="123")
+- Resultados e Depoimentos: placeholders para conteudo real
