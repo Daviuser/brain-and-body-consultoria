@@ -374,6 +374,10 @@
     .plan--featured h3 { color: #fff; }
     .plan__price { margin: 14px 0 24px; font: 800 clamp(3rem, 6vw, 4.4rem)/1 var(--font-display); }
     .plan__price small { color: var(--mut); font: 600 1.1rem var(--font-body); }
+    .plan__prices { margin: 14px 0 24px; }
+    .plan__prices .plan__price { margin: 0 0 10px; }
+    .plan__price--multi { font-size: clamp(2.2rem, 4.5vw, 3rem); }
+    .plan__price--multi small { display: block; margin-top: 4px; font-size: .95rem; }
     .plan ul { flex: 1; margin: 0 0 32px; padding: 0; border-top: 1px solid var(--line); list-style: none; }
     .plan li { position: relative; padding: 12px 0 12px 30px; border-bottom: 1px solid var(--line); color: #d4d4d8; }
     .plan li::before {
@@ -713,7 +717,10 @@
         <div class="plans__grid">
           <article class="plan reveal">
             <h3>Plano presencial</h3>
-            <div class="plan__price">R$ 400<small>/mês</small></div>
+            <div class="plan__prices">
+              <div class="plan__price plan__price--multi">R$ 300<small>/mês · 3 dias por semana</small></div>
+              <div class="plan__price plan__price--multi">R$ 500<small>/mês · 5 dias por semana</small></div>
+            </div>
             <ul>
               <li>Planejamento personalizado</li>
               <li>Treinamento presencial</li>
